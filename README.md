@@ -132,13 +132,12 @@ cc.loader.loadRes('shader/' + name, function (err, data) {
 ### 效果图
 
 - 完整shader配置：
-![效果]
-(https://github.com/Sinmere/cocos-creator-shader-assembler/blob/master/snapshot/compelete.png)
+![效果](https://github.com/Sinmere/cocos-creator-shader-assembler/blob/master/snapshot/compelete.png)
 
 - shadertoy：
-![效果]
-(https://github.com/Sinmere/cocos-creator-shader-assembler/blob/master/snapshot/shadertoy.gif)
+
+![效果](https://github.com/Sinmere/cocos-creator-shader-assembler/blob/master/snapshot/shadertoy.gif)
 
 - 1.x修复shader
-![效果]
-(https://github.com/Sinmere/cocos-creator-shader-assembler/blob/master/snapshot/shader_disable.gif)
+
+![效果](https://github.com/Sinmere/cocos-creator-shader-assembler/blob/master/snapshot/shader_disable.gif)
