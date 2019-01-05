@@ -8,7 +8,7 @@ TypeScript版本
 
 1.支持完整配置let object={name：'',defines:[]，vert:'',frag:''} 格式。
 
-2.支持shadertoy部分代码，单pass Demo支持，多pass demo还未进行，shader 文件保存文本格式txt。
+2.支持shadertoy部分代码，单pass Demo支持，多pass引擎不支持，shader 文件保存文本格式txt。
 
 3.支持部分不完整的shader 采用define覆盖方式，进行兼容，有部分shader多次定义需手动更改，shader 文件保存文本格式txt。
 
@@ -128,3 +128,14 @@ cc.loader.loadRes('shader/' + name, function (err, data) {
     mat.setParamValue("iResolution", iResolution);
 });
 ```
+
+### 效果图
+
+- 完整shader配置：
+![效果](https://github.com/Sinmere/cocos-creator-shader-assembler/blob/master/snapshot/compelete.png)
+
+- shadertoy：
+![效果](https://github.com/Sinmere/cocos-creator-shader-assembler/blob/master/snapshot/shadertoy.gif)
+
+- 1.x修复shader
+![效果](https://github.com/Sinmere/cocos-creator-shader-assembler/master/snapshot/shader_disable.gif)
