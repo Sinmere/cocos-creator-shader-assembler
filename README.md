@@ -133,6 +133,7 @@ cc.loader.loadRes('shader/' + name, function (err, data) {
 
 - 完整shader配置：
 
+
 ![效果](https://github.com/Sinmere/cocos-creator-shader-assembler/blob/master/snapshot/compelete.png)
 
 - shadertoy：
