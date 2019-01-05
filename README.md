@@ -141,4 +141,4 @@ cc.loader.loadRes('shader/' + name, function (err, data) {
 
 - 1.x修复shader
 ![效果]
-(https://github.com/Sinmere/cocos-creator-shader-assembler/master/snapshot/shader_disable.gif)
+(https://github.com/Sinmere/cocos-creator-shader-assembler/blob/master/snapshot/shader_disable.gif)
